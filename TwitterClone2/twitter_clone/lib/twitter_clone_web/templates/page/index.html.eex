@@ -1,0 +1,32 @@
+
+<h1 style="color:#03bafc; align:center"> Twitter Engine </h1>
+ <div id="#Login-Page">
+  <input type='text' id='name' class='form-control' placeholder='Username' style="display:inline" /><br>
+  <input type='password' id='password' class='form-control' placeholder='Password' />
+   <br>
+  <button id="Login" type="button" class="btn btn-info">Login</button>
+  &nbsp
+   <button id="Register" type="button" class="btn btn-info">Register</button><br>
+   </div>
+<div id="#homepage" style="align:">
+<br>
+<input type='text' id='followtext'  placeholder='Username' class='form-control'  />
+<br>
+  <button id="Follow" type="button" class="btn btn-info">Follow</button><br>
+
+<input type='text' id='tweetbox'  placeholder='Write Tweet' class='form-control' />
+
+<button id="Tweet" type="button" class="btn btn-info">Tweet</button><br>
+
+<input type='text' id='searchhashtag'  placeholder='Search Hashtag' class='form-control' />
+
+<button id="Hashtag" type="button" class="btn btn-info">Query_Hashtag</button><br>
+<input type='text' id='searchusername'  placeholder='Search User Mentions'class='form-control' />
+
+<button id="Mentions" type="button" class="btn btn-info">Query_Mentions</button>
+&nbsp
+<button id="Clear" type="button" class="btn btn-info">clear</button><br>
+</div>
+<h4 style="color:#03bafc">Live Status:</h4>
+<div id='message-list'>
+</div>
